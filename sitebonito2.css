@@ -1,0 +1,302 @@
+*{
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    font-style:initial;
+}
+
+header{
+    top: 0px;
+    margin-top: 0px;
+    margin-left: -10px;
+    position:sticky;
+    align-items: center;
+    justify-content:center;
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    height: 70px;
+}
+
+.logo{
+    position: flex;
+    width: 106px;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+header ul{
+    margin-left: 650px;
+    margin-top: -125px;
+    display: flex;
+}
+
+header ul a{
+    text-decoration: none;
+    color: black;
+    margin: 0 50px;
+    font-size: 19px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+}
+
+.img1{
+    width: 1440px;;
+    height :500px;
+    margin-top: -20px;
+    object-fit: cover;
+}
+
+div{
+    margin: 20px;
+}
+
+h1{
+    position: relative;
+    top: -73px;
+    left: 130px;
+    width:200px;
+}
+
+h2{
+    margin: 30px;
+    font-size: 23px;
+    position: relative;
+    right: 180px;
+    text-align: center;
+    font-weight: lighter;
+
+}
+
+.saiba{
+    position: absolute;
+    left: 450px;
+    width: 170px;
+    height: 50px;
+    margin-top: -5px;
+    background-color: rgb(255, 157, 0);
+    border-style: none;
+}
+
+div button a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+div ul{
+    position: relative;
+    left: 400px;
+    bottom: 210px;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.separacao{
+    width:1200px;
+    border: 1px solid gray;
+    margin-top: 20px;
+}
+.produtos{
+    position: relative;
+    top:-210px;
+}
+
+.prod{
+    display:inline-block;
+    margin-left: 85px;
+}
+.prod a{
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+}
+
+.prod button{
+    width:140px;
+    height:35px;
+    background-color: rgba(44, 169, 2, 0.784);
+    margin-top: 20px;
+    border-radius: 15px;
+    border-style: none;
+}
+
+h3{
+    position:relative;
+    font-size: 40px;
+    margin-bottom: -20px;
+}
+
+.produtos h3{
+    margin-left: 40px;
+}
+
+.bordasab h3{
+    margin-left: 40px;
+}
+
+h4{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+p{
+    width: 300px;
+    margin-top: -10px;
+    font-size: 18px;
+}
+
+.img2{
+    margin-bottom: -15px;
+    width:250px;
+    position: relative;
+    display: flex;
+}
+
+.bordasab{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.sab{
+    width:200px;
+    height:70px;
+    display: inline-block;
+    border-radius: 10px;
+    
+}
+
+.sab a{
+    text-decoration: none;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: -22px;
+    font-size: 30px;
+
+}
+
+.original{
+    background: rgb(63, 8, 99);
+}
+.guarana{
+    background: rgb(136, 5, 150);
+}
+.banana{
+    background: rgb(246, 209, 1);
+}
+.whey{
+    background: rgb(255, 162, 22);
+}
+.zero{
+    background: rgb(178, 178, 178);
+}
+
+.bordasab{
+    margin-top: -190px;
+    margin-bottom: 100px;
+}
+
+.frasefinal {
+    position: relative;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.frasefinal p{
+    font-size: 20px;
+    font-stretch:ultra-expanded;
+    width: 800px;
+    font-weight: lighter;
+    margin-bottom: -5px;
+}
+
+.imagensfinais img{
+    margin: 10px;
+    width:250px;
+    height:250px;
+}
+.contato{
+    justify-content: center;
+    position: relative;
+    display: flex;
+    background-color: rgb(228, 228, 228);
+    width:1440px;
+    height:max-content;
+}
+
+.separacao2 {
+    width: 500px;
+    height: max-content;
+    border: 2px solid rgb(0, 0, 0);
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+
+.separacao2 h3{
+    margin-bottom: 30px;
+}
+
+.redes img{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    margin-top: -5px;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info p{
+    width: 600px;
+}
+
+input{
+    columns: 30;
+    margin-bottom: 10px;
+    width: 200px;
+}
+
+.button{
+    height: 20px;
+    width:100px;
+    margin-bottom: 30px;
+}
+
+footer{
+    margin-top: -20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(285, 100%, 16%);
+    margin-bottom: -8px;
+    
+}
+footer p{
+    color: white;
+    width:max-content;
+    font-size: 15px;
+    margin-top: 10px;
+    
+}
+footer img{
+    width: 400px;
+    height:220px;
+}

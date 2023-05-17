@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Açaí Farm</title>
+    <link rel="stylesheet" type="text/css" href="sitebonito2.css"/>
+</head>
+<body>
+    <header>
+        <a href="">
+            <img class="logo" src="imagens/logo5.jpg" alt="Açaí Farm">
+        </a>
+        <h1>AÇAÍ FARM</h1>
+        <ul>
+            <a href="#img1">Sobre</a>
+            <a href="#produtos">Produtos</a>
+            <a href="#contato">Contato</a>
+            <a href="">Seja afiliado!</a>
+        </ul>
+    </header>
+    <main>
+        <div>
+            <img class="img1" id="img1" src="imagens/WhatsApp Image 2023-01-02 at 1.50.43 PM.jpeg" alt="Imagem indisponível.">
+        </div>
+        <div>
+            <h2>Produzimos nosso açaí desde a fazenda até nossos clientes. <br> Trabalhamos com culturas sustentáveis apoiando as comunidades locais <br> e incentivando o desenvolvimento da região.<br/> Nosso Mix possui alta concentração de açaí, <br> com um processo de seleção e controle bastante rigoroso.</h2>
+            <button class="saiba"><a href="">SAIBA MAIS</a></button>
+        </div>
+        <div>
+            <ul>
+                <li>Rico em Vitamina C</li>
+                <li>Sem Gluten</li>
+                <li>Sem Gorduras Trans</li>
+                <li>Vegano</li>
+                <li>Natural</li>
+            </ul>
+        </div>
+        <div class="produtos" id="produtos">
+            <h3>PRODUTOS</h3>
+            <div class="separacao"></div>
+            <div class="prod">
+                <img class="img2" src="imagens/af_pote_360ml.png" alt="">
+                <h4>Açaí 360ml</h4>
+                <p>A porção individual perfeita, fácil armazenamento e pronto para consumo. <br><br></p>
+                <button type="button" value="Solicitacao acai 360ml" ><a href="https://api.whatsapp.com/send?phone=5561982916122" target="_blank">Solicite agora</a></button>
+                
+            </div>
+            <div class="prod">
+                <img class="img2" src="imagens/af_pote_2l.png" alt="">
+                <h4>Açaí 2L</h4>
+                <p>O melhor açaí para dividir com a galera, comer em família. Recomendado para quatro ou mais pessoas.</p>
+                <button type="button" value="Solicitacao acai 2L"><a href="https://api.whatsapp.com/send?phone=5561982916122" target="_blank">Solicite agora</a></button>
+            </div>
+            <div class="prod">
+                <img class="img2" src="imagens/af_caixa_10l.png" alt="">
+                <h4>Açaí 10L</h4>
+                <p>Ótimo para revendas ou açaiterias. O melhor mix pronto para servir com seu acompanhamento preferido.</p>
+                <button type="button" value="Solicitacao acai 10L"><a href="https://api.whatsapp.com/send?phone=5561982916122" target="_blank">Solicite agora</a></button>
+            </div>
+        </div>
+        <div class="bordasab">
+            <h3>SABORES</h3>
+            <div class="separacao"></div>
+            <div class="sab original">
+                <a href=""><h4>Original</h4></a>
+            </div>
+            <div class="sab guarana">
+                <a href=""><h4>Guaraná</h4></a>
+            </div>
+            <div class="sab banana">
+                <a href=""><h4>Banana</h4></a>
+            </div>
+            <div class="sab zero">
+                <a href=""><h4>Zero Açúcar</h4></a>
+            </div>
+            <div class="sab whey">
+                <a href=""><h4>Whey Protein</h4></a>
+            </div>
+        </div>
+        <div class="frasefinal">
+            <p >EXPERIMENTE NOSSOS PRODUTOS E SE ENCANTE COM A SUA QUALIDADE E SABOR</p>
+            <div class="imagensfinais">
+                <img src="imagens/ac1.jpeg" alt="">
+                <img src="imagens/ac2.jpeg" alt="">
+                <img src="imagens/ac3.jpeg" alt="">
+                <img src="imagens/ac4.jpeg" alt="">
+            </div>
+        </div>
+        <div class="contato">
+            <div class="separacao2 ">
+                <h3>Como nos encontrar:</h3>
+                <div class="info">
+                    <p>Obrigado pelo interesse em nossos produtos! <br> Vendemos atacado e entregamos para todo o Brasil. <br>
+                    <br> PC Coronel Salviano Monteiro Quadra 44 Lote 11 <br>Planaltina/DF - CEP 73.330-151</p>
+                </div>
+                <div class="redes">
+                    <a href="https://api.whatsapp.com/send?phone=5561982916122">
+                        <img src="imagens/whats.webp" alt="+55(61)982916122">
+                    </a>
+                    <a href="https://www.instagram.com/acaifarmbr/">
+                        <img src="imagens/insta.png" alt="@acaifarmbr">
+                    </a>
+                </div>
+            </div>
+     
+            <div class="separacao2" id="contato">
+                <h3>Entre em contato:</h3>
+                <form action="/pagina-processa-dados" method="post">
+                    <div>
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome"/>
+                    </div>
+                    <div>
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" />
+                    </div>
+                    <div>
+                        <label for="tele">E-mail:</label>
+                        <input type="telefone" id="tele" />
+                    </div>
+                    <div>
+                        <label for="msg">Mensagem:</label><br>
+                        <textarea id="msg" cols="30" rows="10"></textarea>
+                    </div>
+                    <div>
+                        <button class="button" type="submit">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>        
+    <footer>
+        <img src="imagens/logo2.jpg" alt="">
+        <p>Copyright © Açaí Farm. Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
